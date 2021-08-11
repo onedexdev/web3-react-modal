@@ -47,7 +47,7 @@ export const Web3ReactModal = ({
           if (name === 'injected' && !window.ethereum) {
             setDontHaveProvider(true)
           } else {
-            onConnect(connector)
+            onConnect(connector, name)
             setVisible(false)
           }
         }}

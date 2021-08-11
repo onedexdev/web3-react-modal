@@ -29,7 +29,8 @@ const AuthComponent = () => {
       visible={visible}
       setVisible={setVisible}
       providerOptions={connectors}
-      onConnect={(connector: any) => {
+      onConnect={(connector: any, name: string) => {
+        localStorage.setItem('connected', name)
         activate(connector)
       }}
     />
