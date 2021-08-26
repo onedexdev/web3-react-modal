@@ -1,0 +1,166 @@
+/* add css module styles here (optional) */
+
+.hidden {
+  display: none !important;
+}
+
+.icon {
+  width: 40px;
+  display: inline-block;
+}
+
+.icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.modalContent {
+  background: white;
+  z-index: 1001;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.web3Modal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  max-height: 100%;
+  overflow: auto;
+  gap: 20px;
+}
+
+.walletItem {
+  padding: 5px 30px;
+  border: 1px solid rgba(195, 195, 195, 0.62);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.walletItem:hover {
+  color: white;
+  background: linear-gradient(31deg, #328B31 -28.78%, #96CF24 141.82%);
+}
+
+.walletItem:hover span {
+  color: white;
+}
+
+.injectedWalletItem {
+  flex-direction: column;
+  grid-column: 1 / span 2;
+}
+
+.injectedWalletItem span {
+  font-size: 22px;
+}
+
+.walletLogos {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.walletTitle {
+  text-align: center;
+  color: #535353;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.dontHaveProvider {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+
+.dontHaveProvider>span:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.dontHaveProvider>span:nth-child(2) {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dontHaveProvider>div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dontHaveProvider>div:nth-child(4) {
+  text-align: center;
+}
+
+.injectedWalletToInstall {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(195, 195, 195, 0.62);
+  border-radius: 15px;
+  padding: 10px 30px;
+  gap: 20px;
+  text-decoration: none;
+  color: #535353;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.injectedWalletToInstall:hover {
+  color: white;
+  background: linear-gradient(31deg, #328B31 -28.78%, #96CF24 141.82%);
+}
+
+.btnBack {
+  color: #535353;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btnBack {
+  display: inline-block;
+  border-bottom: 1px solid #535353;
+  transition: all .2s;
+  padding: 2px 10px;
+}
+
+.btnBack:hover {
+  transform: translateY(-1px);
+}
+
+.btnBack:active {
+  transform: translateY(0px);
+}
