@@ -52,7 +52,13 @@ export const Web3ReactModal = ({
           }
         }}
       >
-        <span className={styles.walletLogos}>{logos}</span>
+        <span
+          className={
+            logos.length === 1 ? styles.smallWalletLogos : styles.walletLogos
+          }
+        >
+          {logos}
+        </span>
         <span className={styles.walletTitle}>
           {supportedConnectors[name].title}
         </span>

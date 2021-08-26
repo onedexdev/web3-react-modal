@@ -23,7 +23,7 @@ export const injectedInstallLinks = [
 
 const injected = {
   images: ['MetamaskIcon', 'EzdefiIcon', 'LaunchzoneIcon', 'TrustWalletIcon'],
-  title: 'Injected wallet'
+  title: 'Injected Wallets'
 }
 
 const walletconnect = {
