@@ -17,18 +17,19 @@
     "@types/node": "link:../node_modules/@types/node",
     "@types/react": "link:../node_modules/@types/react",
     "@types/react-dom": "link:../node_modules/@types/react-dom",
-    "react": "link:../node_modules/react",
-    "react-dom": "link:../node_modules/react-dom",
-    "react-scripts": "link:../node_modules/react-scripts",
-    "typescript": "link:../node_modules/typescript",
-    "web3-react-modal": "link:..",
-    "@web3-react/core": "^6.1.9",
     "@web3-react/authereum-connector": "^6.2.0",
+    "@web3-react/core": "^6.1.9",
     "@web3-react/injected-connector": "^6.0.7",
     "@web3-react/network-connector": "^6.1.9",
     "@web3-react/torus-connector": "^6.1.9",
     "@web3-react/walletconnect-connector": "^6.2.4",
-    "@web3-react/walletlink-connector": "^6.2.3"
+    "@web3-react/walletlink-connector": "^6.2.3",
+    "react": "link:../node_modules/react",
+    "react-dom": "link:../node_modules/react-dom",
+    "react-scripts": "link:../node_modules/react-scripts",
+    "react-web3-modal": "^0.1.5",
+    "typescript": "link:../node_modules/typescript",
+    "web3-react-modal": "link:.."
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"

@@ -18,11 +18,22 @@ export const injectedInstallLinks = [
     icon: 'TrustWalletIcon',
     name: 'TrustWallet',
     link: 'https://trustwallet.com/download-page'
+  },
+  {
+    icon: 'CoinBaseIcon',
+    name: 'CoinBase',
+    link: 'https://www.coinbase.com/'
   }
 ]
 
 const injected = {
-  images: ['MetamaskIcon', 'EzdefiIcon', 'LaunchzoneIcon', 'TrustWalletIcon'],
+  images: [
+    'MetamaskIcon',
+    'EzdefiIcon',
+    'LaunchzoneIcon',
+    'TrustWalletIcon',
+    'CoinBaseIcon'
+  ],
   title: 'Injected Wallets'
 }
 
@@ -31,10 +42,10 @@ const walletconnect = {
   title: 'WalletConnect'
 }
 
-const walletlink = {
-  images: ['CoinBaseIcon'],
-  title: 'CoinBase'
-}
+// const walletlink = {
+//   images: ['CoinBaseIcon'],
+//   title: 'CoinBase'
+// }
 
 const authereum = {
   images: ['AuthereumIcon'],
@@ -50,6 +61,6 @@ export default {
   injected,
   torus,
   authereum,
-  walletlink,
+  // walletlink,
   walletconnect
 }

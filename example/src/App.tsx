@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Web3ReactProvider getLibrary={getLibrary}>
-        <AuthComponent/>
+        <AuthComponent />
       </Web3ReactProvider>
     </>
   )
