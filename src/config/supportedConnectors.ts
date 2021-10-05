@@ -57,14 +57,34 @@ const fortmatic = {
   title: 'Fortmatic'
 }
 
-// const magic = {
-//   // images: ['TorusIcon'],
-//   title: 'Magic'
-// }
+const magic = {
+  // images: ['TorusIcon'],
+  title: 'Magic'
+}
 
 const portis = {
   // images: ['TorusIcon'],
   title: 'Portis'
+}
+
+const ledger = {
+  // images: ['TorusIcon'],
+  title: 'Ledger'
+}
+
+const trezor = {
+  // images: ['TorusIcon'],
+  title: 'Trezor'
+}
+
+const lattice = {
+  // images: ['TorusIcon'],
+  title: 'Lattice'
+}
+
+const frame = {
+  // images: ['TorusIcon'],
+  title: 'Frame'
 }
 
 export default {
@@ -73,6 +93,10 @@ export default {
   authereum,
   walletconnect,
   fortmatic,
-  // magic,
-  portis
+  magic,
+  portis,
+  ledger,
+  trezor,
+  lattice,
+  frame
 }

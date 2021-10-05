@@ -7,6 +7,10 @@ import { TorusConnector } from '@web3-react/torus-connector'
 import { FortmaticConnector } from '@web3-react/fortmatic-connector'
 import { MagicConnector } from '@web3-react/magic-connector'
 import { PortisConnector } from '@web3-react/portis-connector'
+import { LedgerConnector } from '@web3-react/ledger-connector'
+import { TrezorConnector } from '@web3-react/trezor-connector'
+import { LatticeConnector } from '@web3-react/lattice-connector'
+import { FrameConnector } from '@web3-react/frame-connector'
 
 const POLLING_INTERVAL = 12000
 const RPC_URLS: { [chainId: number]: string } = {
@@ -72,6 +76,7 @@ const torus = {
   desc: 'Connect with your Torus account'
 }
 
+//add new support for all wallet supported by web3-react
 const fortmatic = {
   connector: new FortmaticConnector({
     chainId: 4,
@@ -80,7 +85,7 @@ const fortmatic = {
   image: '/images/fortmatic.svg',
   title: 'Fortmatic',
   desc: 'Connect to your Fortmatic Wallet'
-}
+} //done
 
 const magic = {
   connector: new MagicConnector({
@@ -91,7 +96,7 @@ const magic = {
   image: '/images/magic.svg',
   title: 'Magic',
   desc: 'Connect to your Magic Wallet'
-}
+} // GET https://auth.magic.link/v1/session/refresh 400
 
 const portis = {
   connector: new PortisConnector({
@@ -101,7 +106,51 @@ const portis = {
   image: '/images/portis.svg',
   title: 'Portis',
   desc: 'Connect to your Portis Wallet'
-}
+} //done
+
+const ledger = {
+  connector: new LedgerConnector({
+    chainId: 1,
+    url: RPC_URLS[1],
+    pollingInterval: POLLING_INTERVAL
+  }),
+  image: '/images/ledger.svg',
+  title: 'Ledger',
+  desc: 'Connect to your Ledger Wallet'
+} //no error message
+
+const trezor = {
+  connector: new TrezorConnector({
+    chainId: 1,
+    url: RPC_URLS[1],
+    pollingInterval: POLLING_INTERVAL,
+    manifestEmail: 'hello@example.org',
+    manifestAppUrl: 'http://localhost:'
+  }),
+  image: '/images/trezor.svg',
+  title: 'Trezor',
+  desc: 'Connect to your Trezor Wallet'
+} //no trezor for testing
+
+const lattice = {
+  connector: new LatticeConnector({
+    chainId: 4,
+    appName: 'web3-react',
+    url: RPC_URLS[4]
+  }),
+  image: '/images/lattice.svg',
+  title: 'Lattice',
+  desc: 'Connect to your Lattice Wallet'
+} //done
+
+const frame = {
+  connector: new FrameConnector({
+    supportedChainIds: [1]
+  }),
+  image: '/images/image.svg',
+  title: 'Frame',
+  desc: 'Connect to your Frame Wallet'
+} //WebSocket connection to 'ws://127.0.0.1:1248/' failed:
 
 export default {
   injected,
@@ -112,5 +161,9 @@ export default {
   walletconnect,
   fortmatic,
   magic,
-  portis
+  portis,
+  ledger,
+  trezor,
+  lattice,
+  frame
 }
