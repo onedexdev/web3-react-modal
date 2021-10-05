@@ -42,11 +42,6 @@ const walletconnect = {
   title: 'WalletConnect'
 }
 
-// const walletlink = {
-//   images: ['CoinBaseIcon'],
-//   title: 'CoinBase'
-// }
-
 const authereum = {
   images: ['AuthereumIcon'],
   title: 'Authereum'
@@ -57,10 +52,27 @@ const torus = {
   title: 'Torus'
 }
 
+const fortmatic = {
+  // images: ['TorusIcon'],
+  title: 'Fortmatic'
+}
+
+// const magic = {
+//   // images: ['TorusIcon'],
+//   title: 'Magic'
+// }
+
+const portis = {
+  // images: ['TorusIcon'],
+  title: 'Portis'
+}
+
 export default {
   injected,
   torus,
   authereum,
-  // walletlink,
-  walletconnect
+  walletconnect,
+  fortmatic,
+  // magic,
+  portis
 }

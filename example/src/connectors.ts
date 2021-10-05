@@ -4,12 +4,18 @@ import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import { AuthereumConnector } from '@web3-react/authereum-connector'
 import { TorusConnector } from '@web3-react/torus-connector'
+import { FortmaticConnector } from '@web3-react/fortmatic-connector'
+import { MagicConnector } from '@web3-react/magic-connector'
+import { PortisConnector } from '@web3-react/portis-connector'
 
 const POLLING_INTERVAL = 12000
 const RPC_URLS: { [chainId: number]: string } = {
   1: 'https://mainnet.infura.io/v3/84842078b09946638c03157f83405213' as string,
   4: 'https://mainnet.infura.io/v3/84842078b09946638c03157f83405213' as string
 }
+const FORTMATIC_API_KEY = 'pk_test_36C428488C01198B'
+const MAGIC_API_KEY = 'pk_live_E3E6D17730B671DD'
+const PORTIS_DAPP_ID = '211b48db-e8cc-4b68-82ad-bf781727ea9e'
 
 const injected = {
   connector: new InjectedConnector({
@@ -66,11 +72,45 @@ const torus = {
   desc: 'Connect with your Torus account'
 }
 
+const fortmatic = {
+  connector: new FortmaticConnector({
+    chainId: 4,
+    apiKey: FORTMATIC_API_KEY as string
+  }),
+  image: '/images/fortmatic.svg',
+  title: 'Fortmatic',
+  desc: 'Connect to your Fortmatic Wallet'
+}
+
+const magic = {
+  connector: new MagicConnector({
+    chainId: 4,
+    apiKey: MAGIC_API_KEY as string,
+    email: 'hello@example.org'
+  }),
+  image: '/images/magic.svg',
+  title: 'Magic',
+  desc: 'Connect to your Magic Wallet'
+}
+
+const portis = {
+  connector: new PortisConnector({
+    dAppId: PORTIS_DAPP_ID as string,
+    networks: [1, 100]
+  }),
+  image: '/images/portis.svg',
+  title: 'Portis',
+  desc: 'Connect to your Portis Wallet'
+}
+
 export default {
   injected,
   torus,
   network,
   authereum,
   walletlink,
-  walletconnect
+  walletconnect,
+  fortmatic,
+  magic,
+  portis
 }
