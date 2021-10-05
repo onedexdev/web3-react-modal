@@ -33,8 +33,6 @@ export const Web3ReactModal = ({
     if (!supportedConnectors[name]) continue
 
     const connector = providerOptions[name].connector
-    console.log({ connector });
-
 
     const logos = []
     for (const i in supportedConnectors[name].images) {
