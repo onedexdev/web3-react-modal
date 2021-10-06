@@ -96,7 +96,7 @@ const magic = {
   image: '/images/magic.svg',
   title: 'Magic',
   desc: 'Connect to your Magic Wallet'
-} // GET https://auth.magic.link/v1/session/refresh 400
+}
 
 const portis = {
   connector: new PortisConnector({
@@ -106,7 +106,7 @@ const portis = {
   image: '/images/portis.svg',
   title: 'Portis',
   desc: 'Connect to your Portis Wallet'
-} //done
+}
 
 const ledger = {
   connector: new LedgerConnector({
@@ -117,7 +117,7 @@ const ledger = {
   image: '/images/ledger.svg',
   title: 'Ledger',
   desc: 'Connect to your Ledger Wallet'
-} //no error message
+}
 
 const trezor = {
   connector: new TrezorConnector({
@@ -130,7 +130,7 @@ const trezor = {
   image: '/images/trezor.svg',
   title: 'Trezor',
   desc: 'Connect to your Trezor Wallet'
-} //no trezor for testing
+}
 
 const lattice = {
   connector: new LatticeConnector({
@@ -141,7 +141,7 @@ const lattice = {
   image: '/images/lattice.svg',
   title: 'Lattice',
   desc: 'Connect to your Lattice Wallet'
-} //done
+}
 
 const frame = {
   connector: new FrameConnector({
@@ -150,7 +150,7 @@ const frame = {
   image: '/images/image.svg',
   title: 'Frame',
   desc: 'Connect to your Frame Wallet'
-} //WebSocket connection to 'ws://127.0.0.1:1248/' failed:
+}
 
 export default {
   injected,

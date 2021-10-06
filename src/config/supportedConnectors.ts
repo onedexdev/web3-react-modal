@@ -53,37 +53,37 @@ const torus = {
 }
 
 const fortmatic = {
-  // images: ['TorusIcon'],
+  images: ['FortmaticIcon'],
   title: 'Fortmatic'
 }
 
 const magic = {
-  // images: ['TorusIcon'],
+  images: ['MagicIcon'],
   title: 'Magic'
 }
 
 const portis = {
-  // images: ['TorusIcon'],
+  images: ['PortisIcon'],
   title: 'Portis'
 }
 
 const ledger = {
-  // images: ['TorusIcon'],
+  images: ['LedgerIcon'],
   title: 'Ledger'
 }
 
 const trezor = {
-  // images: ['TorusIcon'],
+  images: ['TrezorIcon'],
   title: 'Trezor'
 }
 
 const lattice = {
-  // images: ['TorusIcon'],
+  images: ['LatticeIcon'],
   title: 'Lattice'
 }
 
 const frame = {
-  // images: ['TorusIcon'],
+  // images: ['FrameIcon'],
   title: 'Frame'
 }
 

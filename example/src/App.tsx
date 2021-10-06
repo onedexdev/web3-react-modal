@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Web3ReactProvider getLibrary={getLibrary}>
-        <AuthComponent />
+        <AuthComponent/>
       </Web3ReactProvider>
     </>
   )
@@ -24,33 +24,25 @@ const AuthComponent = () => {
   const [visible, setVisible] = useState<any>(false)
   const { account, active, activate, deactivate } = useWeb3React()
 
-  return <>
-    <Web3ReactModal
-      visible={visible}
-      setVisible={setVisible}
-      providerOptions={connectors}
-      onConnect={(connector: any, name: string) => {
-        localStorage.setItem('connected', name)
-        activate(connector)
-      }}
-    />
-    <p>account: {active ? account : 'N/A'}</p>
-    {
-      active ? (
-        <button
-          onClick={() => deactivate()}
-        >
-          logout
-        </button>
+  return (
+    <>
+      <Web3ReactModal
+        visible={visible}
+        setVisible={setVisible}
+        providerOptions={connectors}
+        onConnect={(connector: any, name: string) => {
+          localStorage.setItem('connected', name)
+          activate(connector)
+        }}
+      />
+      <p>account: {active ? account : 'N/A'}</p>
+      {active ? (
+        <button onClick={() => deactivate()}>logout</button>
       ) : (
-        <button
-          onClick={() => setVisible(true)}
-        >
-          login
-        </button>
-      )
-    }
-  </>
+        <button onClick={() => setVisible(true)}>login</button>
+      )}
+    </>
+  )
 }
 
 export default App
