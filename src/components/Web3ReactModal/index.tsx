@@ -27,11 +27,7 @@ export const Web3ReactModal = ({
 
   // render web3-react connectors
   for (const name in providerOptions) {
-    // console.log(name);
-
-
     if (!supportedConnectors[name]) continue
-
     const connector = providerOptions[name].connector
 
     const logos = []
@@ -43,7 +39,9 @@ export const Web3ReactModal = ({
 
     modalItems.push(
       <div
-        className={`${styles.walletItem} ${name === 'injected' ? styles.injectedWalletItem : ''}`}
+        className={`${styles.walletItem} ${
+          name === 'injected' ? styles.injectedWalletItem : ''
+        }`}
         key={name}
         onClick={async () => {
           // @ts-ignore
