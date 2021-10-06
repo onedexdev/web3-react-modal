@@ -33,7 +33,6 @@ export const Web3ReactModal = ({
     const logos = []
     for (const i in supportedConnectors[name].images) {
       const WalletIcon = Icons[supportedConnectors[name].images[i]]
-
       logos.push(<WalletIcon key={i} />)
     }
 
@@ -80,7 +79,6 @@ export const Web3ReactModal = ({
           <div>
             {injectedInstallLinks.map((item, key) => {
               const Icon = Icons[item.icon]
-
               return (
                 <a
                   key={key}

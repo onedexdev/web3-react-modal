@@ -165,5 +165,5 @@ export default {
   ledger,
   trezor,
   lattice,
-  frame
+  frame,
 }
