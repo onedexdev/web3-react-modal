@@ -73,7 +73,7 @@ const ledger = {
 }
 
 const frame = {
-  // images: ['FrameIcon'],
+  images: ['FrameIcon'],
   title: 'Frame'
 }
 

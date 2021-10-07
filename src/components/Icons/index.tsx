@@ -277,37 +277,7 @@ export const EzdefiIcon = (props: any) => (
 
 export const AuthereumIcon = (props: any) => (
   <BaseIcon {...props}>
-    <svg width='382px' height='472px' viewBox='0 0 382 472' version='1.1'>
-      <title>authereum</title>
-      <desc>Created with Sketch.</desc>
-      <g
-        id='Page-1'
-        stroke='none'
-        strokeWidth='1'
-        fill='none'
-        fillRule='evenodd'
-      >
-        <g id='authereum' fill='#FF4C2F'>
-          <g
-            id='Group'
-            transform='translate(190.950000, 235.900000) scale(-1, 1) rotate(-180.000000) translate(-190.950000, -235.900000) translate(-0.000000, 0.100000)'
-          >
-            <path
-              d='M80,454.1 C50,444.5 19.8,434.9 12.7,432.7 L0,428.6 L0,340.4 C0,287.6 0.4,247.8 1,241.2 C5.4,195 25.4,151.2 58.8,114.8 C66.4,106.5 187,1.4 190.4,0.1 C191.8,-0.4 297.8,90 315.2,106.6 C345.4,135.3 369,177.3 377.4,217.5 C381.8,238.7 382.1,246.6 381.8,340.6 L381.5,429 L313.6,450.4 C276.3,462.1 245.6,471.6 245.4,471.5 C245.3,471.3 250.9,460.2 258,446.7 L270.9,422.2 L290.2,416 C300.8,412.6 316.8,407.5 325.8,404.7 L342.1,399.6 L341.7,318.4 C341.4,240.4 341.3,236.8 339.3,227.7 C331.7,193.4 316,164.3 291.9,139.7 C287.3,135 263.9,114.3 240,93.8 C216.1,73.2 195.3,55.3 193.8,53.9 L191.2,51.5 L145.3,91 C89.2,139.4 80.8,147.6 67.4,168.2 C57.1,184.1 49.5,201.2 44.9,218.9 C40.4,236.9 40,243.6 40,323.8 L40,399.5 L54.3,404 C62.1,406.5 78.1,411.6 89.8,415.3 C101.4,419 111,422.4 111,422.7 C111,423 116.6,434 123.5,447.1 C130.4,460.3 136,471.2 136,471.4 C136,472 134.8,471.6 80,454.1 Z'
-              id='Path'
-            />
-            <path
-              d='M188.4,468.5 C187.5,466.7 162.3,418.6 132.5,361.7 L78.3,258.2 L79.1,249.8 C80.9,232.6 87.3,214.4 97.7,197.9 C101.4,191.9 102.5,190.8 103.5,191.9 C104.1,192.6 123.9,230 147.5,275 C171,319.9 190.5,356.7 190.9,356.7 C191.2,356.7 211,320.3 234.8,275.9 C258.6,231.5 278.5,194.4 279.1,193.4 C280.1,191.7 280.3,191.8 281.9,193.9 C292.2,207.4 300.7,229.7 303.1,249.4 L304.3,259.4 L247.5,365.3 C216.3,423.5 190.6,471.4 190.4,471.5 C190.3,471.7 189.4,470.4 188.4,468.5 Z'
-              id='Path'
-            />
-            <path
-              d='M163,213.8 L135.5,158.9 L151,145.4 C159.5,138 172,127.3 178.7,121.7 L191,111.5 L193.7,113.7 C195.3,114.9 207.6,125.6 221.1,137.5 L245.8,159.1 L218.4,213.9 C203.3,244 190.9,268.7 190.7,268.7 C190.6,268.7 178.1,244 163,213.8 Z'
-              id='Path'
-            />
-          </g>
-        </g>
-      </g>
-    </svg>
+    <img src="https://lh3.googleusercontent.com/hqo9LsSAyI7LGOGyFajZL5G7R_mwkRdAMSS-DWUcMLqf7Toi2L3KJgc_f8iHZX-rFoHc90sK9oG0e8VlmkOhgqN8yDOU0jEZz945qdeLCfaSiV7YBLL0lwwV0b5mC0-_gJhUlO-dkvAYy_QLFDM_jpLNk-i8gXcqpoERu5g6PPF2BSKltbh3Q3lLqVmRg-lcxWW-kgiLH6jFwg-YhygiWji7amfPoLMJpv_1c5jVbYXuYPpi0qYoDEZnhZ7e20-f2nJ4QcGZpsWYONvG-zecZ9-3-jtcb2gyPvBuuDlzKA0IIweONgK2nVfxBs1ZWhjJrjqWEwo3yZ-hx6dAhnrvUjCg9w3bPnZ2Ob0YtxKzMyBgrzTz563ZSblRYj1kAKoMI3iml7DpFp2eFgLdGeSzzR17GW_6U3NBthvoVJzq7yiDI0yQ8L3NqHP8iYH0h00sTQSOh_y08C8H6cAsj6rsfqviVbYUwUuKqPDEs9NdMVUdTszbp9HfGxCeX83kGT9aKpPa464gl9VwhWIUtFQRdnd_9PHcL-CItFM9deVWQB4lVpPqper1t3ls6bUkjaHtMiZ0GymdTz4P6R9lFhgbbEmO9DZwgg48CCcAuP2fipwhQR3lL9SCks_zwzE7CPscwmuH0h4onkR43tKE5qbeaB0vwgDa8KdrILx-xgp3N7Nlf1a05TJqklGPhoYsSSpi0SwmAc2quHXi4N68CIJiDl7k=s200-no?authuser=0" alt="authereumLogo" />
   </BaseIcon>
 )
 
@@ -331,20 +301,7 @@ export const CoinBaseIcon = (props: any) => (
 
 export const TorusIcon = (props: any) => (
   <BaseIcon {...props}>
-    <svg
-      width='257'
-      height='277'
-      viewBox='0 0 257 277'
-      fill='none'
-      xmlns='http://www.w3.org/2000/svg'
-    >
-      <rect width='153.889' height='82.0741' fill='#0364FF' />
-      <rect x='71.8135' width='82.0741' height='277' fill='#0364FF' />
-      <path
-        d='M215.443 82.0741C238.107 82.0741 256.48 63.7012 256.48 41.037C256.48 18.3729 238.107 0 215.443 0C192.779 0 174.406 18.3729 174.406 41.037C174.406 63.7012 192.779 82.0741 215.443 82.0741Z'
-        fill='#0364FF'
-      />
-    </svg>
+    <img src="https://lh3.googleusercontent.com/LnOK_OsFQ0wRJ0zxzosFl-M7Ie_LLNJS2yzSJewvPvYgV5N1WPIC7fL5WAFAEb7I9BrFx2RRyLcFyOnuztmFkd02_V24NbIGV7LuEZvoWFNvoQxWxaAozRBfsPIv--z_75M2cbIRHMxVaY0GQOwKQCPvSQRSrbHhrKPjbalcGVKfmg6bPEK_u74SWeZuQ6WDWSphxGdeb1KZmGhgqYvfUt1wnOeARSIFKO4LxJggyZG24bEv7OpJwybxo-Q4HYKQfTlZxzjeUo-aBPf-002yHeiE3xAIbuLXwMsQ-MLstbLjvO8j_A2xtt0nxLbvJyWNDM9wQZWz1v38vhGcBPOvAWPiX6kBP3vkEpwLjzqAN5CHVJ-JzhiZkv-ZLJ15FKptrQFN3leFpw1wTebMPagBIwyyklLbqZhar16DEb8jb6MOK7PDZXkQt_Cya0ysu60G1jCO7bLMeQNciFORru_J-iEyXIMSRVHsxpxMnVa5Yye_PAdmKbzF5bV2W29wMAM9etBcn0ih48r7fjE4zKRhZrYSKVrea-ANZ4dhpIKtCCuXaYtTpngZFjtqKTbO2fKW9V9sb3BYJPLR5kv0Tb_xAUpviCYTIdHmbBwNNvuHFYbbN9U2niLrRudgUssHSfMhP3c0Mr0BDvOau_gLDr1APWw9qHnFMRrRMZWP4hXJ0mWWDz4w3tFpaJc7NMFD_fL64_3gCS9WmsRkpBSknqH17Seg=s200-no?authuser=0" alt="torusLogo" />
   </BaseIcon>
 )
 
@@ -374,7 +331,7 @@ export const WalletConnectIcon = (props: any) => (
 export const FortmaticIcon = (props: any) => (
   <BaseIcon {...props}>
     <img
-      src='https://app.efforce.io/images/fortmatic.png'
+      src='https://lh3.googleusercontent.com/6Wlz3xp6uA0vng6jPdI1mxTwtY0h1OW3Dk-V4HIO5jGvRp_IyUfkpZLpmWjcO_zuGSwur9XebFigHKdOxI2c9HVQTNNWy0nSln84N0N1LmA3T5ZznBAieCrX8yqgYW00dPmOYijXu_dprY5W2RRWLT1MEowwN9D96abHWxs5ZVucRDe48g0pkhSz6-UFy-Z--9j4iRtvAV8qMlM9CefiI97Kiul6Th1sbWSfRmHNMo_rNOs-o3PTGR1rYjMfKp5XVKNfd7REX8LPu_BnPRLPHDpUwga7Ewq7WqvYjNTSEOuwYzmyO4Ont8TqPeoHcp2HLIRt5KtQzWVPjYfYPk8SemhTycNgAWGrQx6VC8qDhji2pH59i0YteuxvTKcUIqmx80RKos9ppKLBiVDPFC4ajmBwrd-peF9om0qZiH_BqYFr8kGkm-lT6lSzEcDmHcDXPtOsWAhQUQnTyJG-1_wv8IED2iWaf-7TlJzLDy3PBwC5xkkiKTDupJkdog-3_5Q7Btn0-cSg6fsVXtt7qB7kkZf1oaau_ajDPE07Gt_Hh_FVvPntef9fwxRjHPVofG3ZC6oOTh9viYdqockeUKLNRuequY4teoq4fWJ7ugpIJHrqAz8qQScPTiJQ6telV_8iczV0XlTyjbHDnXhCfFq2Z_BYDQmh-Y0HdXchXcWGUlP8M_Y0Pby5qTeNO_5jlKWc0_IYCWfQh1M6uAfHGV5Gjwpl=s200-no?authuser=0'
       alt=''
     />
   </BaseIcon>
@@ -382,14 +339,14 @@ export const FortmaticIcon = (props: any) => (
 
 export const MagicIcon = (props: any) => (
   <BaseIcon {...props}>
-    <img src="https://firebounty.com/image/2803-fortmatic-inc" alt="" />
+    <img src="https://lh3.googleusercontent.com/exidEgONCrXCtZB30vwg_p83RZQi7WanuknlnHu-Gh6d-mQ9xSPosrzzc24vXW59pliVKy2Pjz1bRH32PE6csVuJZ2by9nNqUnfKN4c2geOb1ej_SiSku3-4RdC36a5z5ht8z1ps8AzWV3p2YYamN77TX_nO1QUubit9p8oCk9XJE0Fv3aMwngTOFUf7Z8andden9gHGOSR_pZG0pQhIV5VTBX1Kisr3O-LkKCJnsi4ZqYxhu0i3MWdef3_m8eW8BMkJLa68dPM6ualeNPh1-OvXRpTt-9WsrV_lU0wXGpqj2agO0oxjNwio81VT6ysewZsKjkYBLoAjWHJ5wpRzaKyHQRIoFosGqUzbnNZITpvNQdIqAZ_L4uwZGlRe1e5Le-HTXUHJO1l0d-kQ7zwelZOi9UmeHRAmTdFpIo8CXMq2b_NRbxwVk6tp11RMX86YvvYms80SvcgAIDJh98BIxwfF3Or8k1mpPgps4Pvk0lqO0XAQIOl8Cy9LGJ929D1Q9uX3DiffK7Imu0Bc5ELqKrr1o3Q4l7wLZZWZGe-JkAskOIbrATOu0FiRZ31-C7YEYGsjGP657QG-APG2Q6abeoMA2X-BIgwr0xdIRNC5cny4_i8iPcfegmOZId9-2_b3hgir0T6UojsITMSjdreY8gmsE9N1IyBrrykVU86vUYgRrEYRzp9lFBpLIQFIqHSnZ8TnNv_9MAiRxER3O5NWIiqW=s200-no?authuser=0" alt="" />
   </BaseIcon>
 )
 
 export const PortisIcon = (props: any) => (
   <BaseIcon {...props}>
     <img
-      src='https://www.decipher.financial/assets/images/Portis.png'
+      src='https://lh3.googleusercontent.com/LTdbKBMoVnmQ1vCuR5-u0xHXhaypsu6NqSjG--0bd-Yph0pn0uYGHxt6x9bmkROtTRrV2tPW3aQ0ujWqm65fkMahO2TrTmFH4-lyfm5QlXOX_09-XBoSzxvMYxM2xH9u8E8ZW1zZ0Zln8n9L-k3beAAUN8drozYVBYjXxZwBOJWumQtjwjtbsifSV_M06XhYfBMZSHvINS49tDWZIkizjos3zyZETR_g4Zuz8saHVPOgs5h-4YAFDyXmf5QaTNZF73NVtoLfkgS4-DF8FbwXRmBsGxuwkDvRuQNu9Ti0JJ__5nEtjhtcaGoHLij4wf9bLA8kO1nsB0IXNVdhUT6QiVUU0ckibUYF9DXDR2Sj7gsIfm8n3iJj0LXWZ1qxPpws9W85xz5P2aQlpYSjYwLCqQDQCE-NTt3SWTnAQjCQamd40j8B5Ra2CJ6VyG_eCbTjXcSFaJcXvs1sBvQShKlkB34Z2JKsc1TwAoE3gRqNbf9Py7I11qAmZe-GN-TUEjWjZpcocz1Wl_-Q4PFSZGgUc3JpN80ZzsTYqBOMNzAcdhQ5rnVPLQyzdLrVQF7mnMSxXXYU9mNoNVe_ZM4AOb-H4m64gYI44i243gsWIgHRUW-ghlMfIC2hk9hYlFWNEvD41F2HpZOfA8bcjnOEXZgaHRz56mpDjP8HJQ87_rBEH_054_i6HFDRAqZojWjGgh7HdfzTxtYn4ikjsU7_e1Vs8Dzp=s200-no?authuser=0'
       alt=''
     />
   </BaseIcon>
@@ -398,9 +355,18 @@ export const PortisIcon = (props: any) => (
 export const LedgerIcon = (props: any) => (
   <BaseIcon {...props}>
     <img
-      src='https://www.ledger.com/wp-content/uploads/2020/02/puce_blue.png'
+      src='https://lh3.googleusercontent.com/MMAL-kGB2EXJjna7wVHB2xIIZhMezgCnKZD_aPQ34A2ZFZO_5gizMwZSIhc0cYI4onrAmGKnxsIbclOAX2TGld0QyFCvYdI7sUlkgCjiGY13WzIrM3TN_kifDBqejKb2DD5iwldNEBpwGUCsmyyMMotuFw7BoGRgT9Qhv6bjpvUxmnq_qbm5q1CRt7-4ZYfjGBUbtcT4_fo2Wv8jVPdirH_5ZSkxgt3JX0LsEGPqa9yhNnM6bHNFsaSxB-k8_LvweLn-D569kWCtFLlq3mbZdBRagqNTFYNi00187TAM7nX1F0um51hdXX6cSD0J9mvGkNV8uhEtEsm2DLShkzsp13IMlO6iBjf_zlirW5XEb68kID_EQ6iM4l7fDRMOX7y2nBYwPPKDehoN6hGvgVdcy46xTIf00djPwwA0bJySYadGnL0QOs-Curb_aAlbJtRiI-est9VoSfIJWy59_diH7zoAsB5k62vhw_DAjcBqQIPuCzLQo1JSD2k6b1gThRGiRLA_EA-6v0TPRuWv4mLTNF1y8P_Ok-5LeCGCQHzE0l2z_LMPWj2eYsZoFdmEqxlrimHRc2aMceUEqC2pctgfeYb0Mk6tM9dLbApq3wxGqBucUFIvoE7oivqTEQ1x9WAzuriDHhM0-TbLeeMb2JihL28UlhoKM39fM8Ejspy9NgkWDw3oBTb28sAWkA_srf15VK0MkzMpmq2x11urnLdJCv1T=s200-no?authuser=0'
       alt=''
     />
+  </BaseIcon>
+)
+
+export const FrameIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.42 152.94">
+        <title>FrameLogo4</title>
+        <path d="M145.15,75.59v-58a9.29,9.29,0,0,0-9.3-9.28H77.65a2.24,2.24,0,0,1-1.56-.64l-7-7A2.24,2.24,0,0,0,67.48,0H9.31A9.29,9.29,0,0,0,0,9.27H0v58a2.16,2.16,0,0,0,.65,1.55l7,7a2.16,2.16,0,0,1,.65,1.55v58a9.29,9.29,0,0,0,9.3,9.28H75.8a2.24,2.24,0,0,1,1.56.64l7,7a2.24,2.24,0,0,0,1.56.64h58.19a9.29,9.29,0,0,0,9.31-9.27h0v-58a2.16,2.16,0,0,0-.65-1.55l-7-7A2.17,2.17,0,0,1,145.15,75.59Zm-32.3,38.55H40.65A1.68,1.68,0,0,1,39,112.47V40.53a1.68,1.68,0,0,1,1.67-1.67h72.18a1.68,1.68,0,0,1,1.67,1.67v71.94a1.68,1.68,0,0,1-1.67,1.67Z" transform="translate(0 0)"></path>
+      </svg>
   </BaseIcon>
 )
 
@@ -416,5 +382,6 @@ export default {
   FortmaticIcon,
   MagicIcon,
   PortisIcon,
-  LedgerIcon
+  LedgerIcon,
+  FrameIcon
 }
