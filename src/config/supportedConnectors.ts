@@ -72,16 +72,6 @@ const ledger = {
   title: 'Ledger'
 }
 
-const trezor = {
-  images: ['TrezorIcon'],
-  title: 'Trezor'
-}
-
-const lattice = {
-  images: ['LatticeIcon'],
-  title: 'Lattice'
-}
-
 const frame = {
   // images: ['FrameIcon'],
   title: 'Frame'
@@ -96,7 +86,5 @@ export default {
   magic,
   portis,
   ledger,
-  trezor,
-  lattice,
   frame
 }

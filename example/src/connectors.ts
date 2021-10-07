@@ -8,8 +8,6 @@ import { FortmaticConnector } from '@web3-react/fortmatic-connector'
 import { MagicConnector } from '@web3-react/magic-connector'
 import { PortisConnector } from '@web3-react/portis-connector'
 import { LedgerConnector } from '@web3-react/ledger-connector'
-import { TrezorConnector } from '@web3-react/trezor-connector'
-import { LatticeConnector } from '@web3-react/lattice-connector'
 import { FrameConnector } from '@web3-react/frame-connector'
 
 const POLLING_INTERVAL = 12000
@@ -76,7 +74,6 @@ const torus = {
   desc: 'Connect with your Torus account'
 }
 
-//add new support for all wallet supported by web3-react
 const fortmatic = {
   connector: new FortmaticConnector({
     chainId: 4,
@@ -85,7 +82,7 @@ const fortmatic = {
   image: '/images/fortmatic.svg',
   title: 'Fortmatic',
   desc: 'Connect to your Fortmatic Wallet'
-} //done
+}
 
 const magic = {
   connector: new MagicConnector({
@@ -119,30 +116,6 @@ const ledger = {
   desc: 'Connect to your Ledger Wallet'
 }
 
-const trezor = {
-  connector: new TrezorConnector({
-    chainId: 1,
-    url: RPC_URLS[1],
-    pollingInterval: POLLING_INTERVAL,
-    manifestEmail: 'hello@example.org',
-    manifestAppUrl: 'http://localhost:'
-  }),
-  image: '/images/trezor.svg',
-  title: 'Trezor',
-  desc: 'Connect to your Trezor Wallet'
-}
-
-const lattice = {
-  connector: new LatticeConnector({
-    chainId: 4,
-    appName: 'web3-react',
-    url: RPC_URLS[4]
-  }),
-  image: '/images/lattice.svg',
-  title: 'Lattice',
-  desc: 'Connect to your Lattice Wallet'
-}
-
 const frame = {
   connector: new FrameConnector({
     supportedChainIds: [1]
@@ -163,7 +136,5 @@ export default {
   magic,
   portis,
   ledger,
-  trezor,
-  lattice,
   frame,
 }
