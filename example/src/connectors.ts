@@ -74,7 +74,9 @@ const torus = {
 const fortmatic = {
   connector: new FortmaticConnector({
     chainId: 4,
-    apiKey: process.env.REACT_APP_FORTMATIC_API_KEY as string
+    apiKey:
+      (process.env.REACT_APP_FORTMATIC_API_KEY as string) ||
+      'pk_test_A6260FCBAA2EBDFB'
   }),
   image: '/images/fortmatic.svg',
   title: 'Fortmatic',
@@ -84,8 +86,8 @@ const fortmatic = {
 const magic = {
   connector: new MagicConnector({
     chainId: 4,
-    apiKey: process.env.REACT_APP_MAGIC_API_KEY as string,
-    email: 'hello@example.org'
+    apiKey: 'pk_test_398B82F5F0E88874',
+    email: 'caothien029@gmail.com'
   }),
   image: '/images/magic.svg',
   title: 'Magic',
@@ -94,7 +96,9 @@ const magic = {
 
 const portis = {
   connector: new PortisConnector({
-    dAppId: process.env.REACT_PORTIS_DAPP_ID as string,
+    dAppId:
+      (process.env.REACT_PORTIS_DAPP_ID as string) ||
+      '8d6490e0-0111-4c49-a93b-3a4f67e7e258',
     networks: [1, 100]
   }),
   image: '/images/portis.svg',
@@ -133,5 +137,5 @@ export default {
   magic,
   portis,
   ledger,
-  frame,
+  frame
 }
