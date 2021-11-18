@@ -5,7 +5,35 @@ import supportedConnectors, {
   injectedInstallLinks
 } from '../../config/supportedConnectors'
 import Icons from '../Icons'
+import { openWebsocket } from '../../utils'
 
+const WalletNeedCheck = {
+  frame: {
+    name: 'frame',
+    website: 'https://frame.sh',
+    http: 'ws://127.0.0.1:1248'
+  },
+  magic: {
+    name: 'magic'
+  },
+  portis: {
+    name: 'portis'
+  }
+}
+const checkWalletAvailability = async (name: string) => {
+  switch (name) {
+    case WalletNeedCheck.frame.name:
+      console.info({ name })
+      return await new Promise((resolve) => {
+        openWebsocket(WalletNeedCheck.frame.http, (_, err) => {
+          if (err) return resolve(false)
+          return resolve(true)
+        })
+      })
+    default:
+      return true
+  }
+}
 export const Web3ReactModal = ({
   setVisible,
   visible,
@@ -46,6 +74,11 @@ export const Web3ReactModal = ({
           // @ts-ignore
           if (name === 'injected' && !window.ethereum) {
             setDontHaveProvider(true)
+          } else if (!(await checkWalletAvailability(name))) {
+            setVisible(false)
+            WalletNeedCheck[name] &&
+              WalletNeedCheck[name].website &&
+              window.open(WalletNeedCheck[name].website)
           } else {
             onConnect(connector, name)
             setVisible(false)
