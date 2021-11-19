@@ -277,37 +277,10 @@ export const EzdefiIcon = (props: any) => (
 
 export const AuthereumIcon = (props: any) => (
   <BaseIcon {...props}>
-    <svg width='382px' height='472px' viewBox='0 0 382 472' version='1.1'>
-      <title>authereum</title>
-      <desc>Created with Sketch.</desc>
-      <g
-        id='Page-1'
-        stroke='none'
-        strokeWidth='1'
-        fill='none'
-        fillRule='evenodd'
-      >
-        <g id='authereum' fill='#FF4C2F'>
-          <g
-            id='Group'
-            transform='translate(190.950000, 235.900000) scale(-1, 1) rotate(-180.000000) translate(-190.950000, -235.900000) translate(-0.000000, 0.100000)'
-          >
-            <path
-              d='M80,454.1 C50,444.5 19.8,434.9 12.7,432.7 L0,428.6 L0,340.4 C0,287.6 0.4,247.8 1,241.2 C5.4,195 25.4,151.2 58.8,114.8 C66.4,106.5 187,1.4 190.4,0.1 C191.8,-0.4 297.8,90 315.2,106.6 C345.4,135.3 369,177.3 377.4,217.5 C381.8,238.7 382.1,246.6 381.8,340.6 L381.5,429 L313.6,450.4 C276.3,462.1 245.6,471.6 245.4,471.5 C245.3,471.3 250.9,460.2 258,446.7 L270.9,422.2 L290.2,416 C300.8,412.6 316.8,407.5 325.8,404.7 L342.1,399.6 L341.7,318.4 C341.4,240.4 341.3,236.8 339.3,227.7 C331.7,193.4 316,164.3 291.9,139.7 C287.3,135 263.9,114.3 240,93.8 C216.1,73.2 195.3,55.3 193.8,53.9 L191.2,51.5 L145.3,91 C89.2,139.4 80.8,147.6 67.4,168.2 C57.1,184.1 49.5,201.2 44.9,218.9 C40.4,236.9 40,243.6 40,323.8 L40,399.5 L54.3,404 C62.1,406.5 78.1,411.6 89.8,415.3 C101.4,419 111,422.4 111,422.7 C111,423 116.6,434 123.5,447.1 C130.4,460.3 136,471.2 136,471.4 C136,472 134.8,471.6 80,454.1 Z'
-              id='Path'
-            />
-            <path
-              d='M188.4,468.5 C187.5,466.7 162.3,418.6 132.5,361.7 L78.3,258.2 L79.1,249.8 C80.9,232.6 87.3,214.4 97.7,197.9 C101.4,191.9 102.5,190.8 103.5,191.9 C104.1,192.6 123.9,230 147.5,275 C171,319.9 190.5,356.7 190.9,356.7 C191.2,356.7 211,320.3 234.8,275.9 C258.6,231.5 278.5,194.4 279.1,193.4 C280.1,191.7 280.3,191.8 281.9,193.9 C292.2,207.4 300.7,229.7 303.1,249.4 L304.3,259.4 L247.5,365.3 C216.3,423.5 190.6,471.4 190.4,471.5 C190.3,471.7 189.4,470.4 188.4,468.5 Z'
-              id='Path'
-            />
-            <path
-              d='M163,213.8 L135.5,158.9 L151,145.4 C159.5,138 172,127.3 178.7,121.7 L191,111.5 L193.7,113.7 C195.3,114.9 207.6,125.6 221.1,137.5 L245.8,159.1 L218.4,213.9 C203.3,244 190.9,268.7 190.7,268.7 C190.6,268.7 178.1,244 163,213.8 Z'
-              id='Path'
-            />
-          </g>
-        </g>
-      </g>
-    </svg>
+    <img
+      src='https://lh3.googleusercontent.com/fife/AAWUweXnkq4Nhs0LaZRndBTWf3uawkjRJkCygc5KxB4JijnX1hHDhvcYdQ1ismnbiL62H42Ur-_GKmEIm9uLL3ecLRTFGqsYyopr-RQoKbhe9cSYL6wAdxh7ERN_u7GjfGz4rJf6HMzerGiy_Vr3l_qCPxHbv7YTJdkNmnMctBNPwUEvc03mus32nmB3r6x18rRrYKNzxfVKotRAeZIjw-qkFDGv6aLYfuZDuJh4_7JQ6H_oth206k0kaX2bqaPBAbCvI43Z3CrcFcpYysXu9HHxjjyEJDjmyBUTQiKBlzSSFGALr9jiRS-EqYe5kRApWuA-Y1RtoXUdn7Y09ZhTSmA1-ru120_aDSqzRt07VUXc2zhTGmjOui_1uQsj82mn_PtFSPau9AN10NbxFwuuXdJzpbKdTcc8E600f9Tkw7mZENA5MAwzAjC_CDoT-nIhSqF8MlwDQmpBMlgD0vELnvwNDaCas_PAsmNoAyfdVXZRUtQXCKw1_nbALFAdKtX1S6LW1_Yy0dGW3gluEJzMMeMaVNOUQwg-Rvt1qi-idZTAFxrjNzsYAO36jDUkVu7Axy6zUJOuP25CjczhcXRNXg8rF4oiyLyzHhdrmgn3HPFPprd7jyF3mFdctOdo2eBTED87t4y-EiBppTmjF8tMJZt02_9pspe6U7o_1qzdqTsPfIEX-rmouwxwTi-cnYMJjBc-uY_bRGDXH7bjcvxtQ5dmHIDhwLsLEvtWJJ0=w1920-h937-ft'
+      alt='authereumLogo'
+    />
   </BaseIcon>
 )
 
@@ -331,20 +304,10 @@ export const CoinBaseIcon = (props: any) => (
 
 export const TorusIcon = (props: any) => (
   <BaseIcon {...props}>
-    <svg
-      width='257'
-      height='277'
-      viewBox='0 0 257 277'
-      fill='none'
-      xmlns='http://www.w3.org/2000/svg'
-    >
-      <rect width='153.889' height='82.0741' fill='#0364FF' />
-      <rect x='71.8135' width='82.0741' height='277' fill='#0364FF' />
-      <path
-        d='M215.443 82.0741C238.107 82.0741 256.48 63.7012 256.48 41.037C256.48 18.3729 238.107 0 215.443 0C192.779 0 174.406 18.3729 174.406 41.037C174.406 63.7012 192.779 82.0741 215.443 82.0741Z'
-        fill='#0364FF'
-      />
-    </svg>
+    <img
+      src='https://lh3.googleusercontent.com/fife/AAWUweUtZPHJm5EshDoI6Sjqh8iMCmRgovIuN_QYuJuj_OXZGgKYjrt0Gf4nEjOzLl7JVwZxsWTLX9LS_MIyB4mrErKsJS4-HnBgE4rusoQgU3FZdhjIqxTBh_WAPNQI_dU7c2Hp2BAE6hGj3bHiXLfIKmBN4NXilLlmfA3zu4eFRX54DBEdkAC18AT78VlgxS55YlfRSU1T7gFjZzyhb_xukic_6rzsrjrEuIbUILldDoLHp3h2ix6mSKp0pePQDUWfWaGtDfOnIEmo3c6zfofZXyl-j17jLWhKG4hnyPSjod9mqNIxawtjcr7WCDS22RSNeACUwV9cChP0P00hETb7SQa-Z62dvwGT9N74IupKxVnCOUmJXvfQ4mIlmUOqC04bS8h0K5kyNZEY8ZA3spkzkHTwr8bTGevphGbBx7iOeWVqinJVRmZUBAhmE8c6v2SQeGsbDHs_mnv2FO5qwOSiony8W0PyHPeamLbzZPplPiuN76zq1BlfxVBvtEA3_YraZRT7xAQjt6XE_kCndWxaRBZYwtn-kkTCk8wMiU6GOowpCCyRtYf5dSAM54Im2T1paoU1D5H90ibGg3aTjgefJIc7m3eT_80P8h0wzINaS1y0Nr-oHAwUdDDgQkZ5BbsMJxM_8yk77gIHsggZOQDZLRJefTE_3F3uFFSJKBA-qyGXZEPpVa4Sb-sbMkJB0xMQKuliNROG_eYoUeMNiypEtqkVDAJJYZ-XCy8=w1920-h591-ft'
+      alt='torusLogo'
+    />
   </BaseIcon>
 )
 
@@ -371,6 +334,75 @@ export const WalletConnectIcon = (props: any) => (
   </BaseIcon>
 )
 
+export const FortmaticIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <img
+      src='https://lh3.googleusercontent.com/fife/AAWUweVfz4TcAL1ayFAgkWv6xIWjGWXxzDXXYO7gRHDffolmHPdKX_I6BJY-HfdpApzJjpvK6IqfKLFEv8UZ1XvoFjz15ccaQorXFD8O1nQxQxf9nYxdSyiZR8smzPi_ICixNEtawfmZWz3L2CJxKReuhoY3DdIfMwyP3aVJf3ftfBAZtrEd9gKz2YyI8sNXhdatDOOcYRcRN7mtCrrymbyOQr8CBzX3G9o43PEbY2EFly9sr53f-k4CKHce1f4rthTVy99QTpqvA9C9vbq6-i1gHdtpvFlj5ycNI_EBUOCD7Rd0l5A--eGEIGUSAGXmGNY-nWmBppSiIwJnziUxr9jlEtRWHUZ60ZCIx5ODeoBv7j8fDvnPttZhIhoTmZ5hHPILJDUlNRdhTIkMb1w915Lv9CP5SQfoDG86rfrOwe0T90UwEcDdekrgLldfDhu_nE7faZDprTPThKW7gLKb5Hbls6AvLhVcuznfWsW3s6i0Tj5l5R6lE09hVF3s6w15ZR3zGCQrx72QhASOerFnBNpQuxWBdDnRjy9qgy2RnB7QF3hdocqR_-PyEExxAK9mylLUfF6EvN-l1-CG0-BcIB0DLlhbDuIKllI-8GIpf-d9OzXakI4atUDCmTLq2UGNArf442wV8rynwPxg6iCklmXTc7Kau3sDgLEfYsi0CaeExe0YPzkcNyZr1U7Of8S-iGfx7H4lGuD3TiUYGiQqQ0WK2UQinnxkj7rFVsg=w1920-h591-ft'
+      alt='FortmaticLogo'
+    />
+  </BaseIcon>
+)
+
+export const MagicIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <svg
+      width='26'
+      height='31'
+      viewBox='0 0 26 31'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M12.8533 0C14.1947 1.64317 15.6741 3.16914 17.274 4.56019C16.2081 8.01821 15.6342 11.6921 15.6342 15.5C15.6342 19.308 16.2081 22.9818 17.274 26.4399C15.6742 27.8309 14.1947 29.3568 12.8533 31C11.5121 29.357 10.0328 27.8312 8.43313 26.4403C9.49916 22.9821 10.0731 19.3081 10.0731 15.5C10.0731 11.6919 9.49916 8.01785 8.43312 4.55968C10.0328 3.16877 11.5121 1.64297 12.8533 0Z'
+        fill='#6851FF'
+      />
+      <path
+        d='M5.37476 24.049C3.68158 22.8621 1.88466 21.8131 0.000297072 20.9184C0.523041 19.2046 0.804248 17.3854 0.804248 15.5005C0.804248 13.6153 0.522934 11.7958 0 10.0817C1.88446 9.18693 3.68148 8.13791 5.37474 6.95092C6.02224 9.69542 6.36486 12.5577 6.36486 15.5C6.36486 18.4423 6.02225 21.3046 5.37476 24.049Z'
+        fill='#6851FF'
+      />
+      <path
+        d='M19.3416 15.5C19.3416 18.4423 19.6842 21.3046 20.3317 24.0492C22.0252 22.862 23.8224 21.8129 25.7071 20.9181C25.1845 19.2043 24.9033 17.3853 24.9033 15.5005C24.9033 13.6155 25.1846 11.7961 25.7074 10.0821C23.8226 9.18729 22.0253 8.1381 20.3317 6.95089C19.6842 9.6954 19.3416 12.5577 19.3416 15.5Z'
+        fill='#6851FF'
+      />
+    </svg>
+  </BaseIcon>
+)
+
+export const PortisIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <img
+      src='https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9hYTQ1MTExYmE5MWZiZGU1YjA5MWE2ZjMxNGQ4YWFiYT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.WWFb_tUmVfV03lL7oveoT8XEVvjeL59doHTbwtgPdwM'
+      alt='PortisLogo'
+    />
+  </BaseIcon>
+)
+
+export const LedgerIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <img
+      src='https://www.ledger.com/wp-content/uploads/2020/02/puce_blue.png'
+      alt='ledgerLogo'
+    />
+  </BaseIcon>
+)
+
+export const FrameIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <svg
+      id='Layer_2'
+      data-name='Layer 2'
+      xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 153.42 152.94'
+    >
+      <title>FrameLogo4</title>
+      <path
+        d='M145.15,75.59v-58a9.29,9.29,0,0,0-9.3-9.28H77.65a2.24,2.24,0,0,1-1.56-.64l-7-7A2.24,2.24,0,0,0,67.48,0H9.31A9.29,9.29,0,0,0,0,9.27H0v58a2.16,2.16,0,0,0,.65,1.55l7,7a2.16,2.16,0,0,1,.65,1.55v58a9.29,9.29,0,0,0,9.3,9.28H75.8a2.24,2.24,0,0,1,1.56.64l7,7a2.24,2.24,0,0,0,1.56.64h58.19a9.29,9.29,0,0,0,9.31-9.27h0v-58a2.16,2.16,0,0,0-.65-1.55l-7-7A2.17,2.17,0,0,1,145.15,75.59Zm-32.3,38.55H40.65A1.68,1.68,0,0,1,39,112.47V40.53a1.68,1.68,0,0,1,1.67-1.67h72.18a1.68,1.68,0,0,1,1.67,1.67v71.94a1.68,1.68,0,0,1-1.67,1.67Z'
+        transform='translate(0 0)'
+      ></path>
+    </svg>
+  </BaseIcon>
+)
+
 export default {
   AuthereumIcon,
   CoinBaseIcon,
@@ -379,5 +411,10 @@ export default {
   MetamaskIcon,
   TorusIcon,
   TrustWalletIcon,
-  WalletConnectIcon
+  WalletConnectIcon,
+  FortmaticIcon,
+  MagicIcon,
+  PortisIcon,
+  LedgerIcon,
+  FrameIcon
 }

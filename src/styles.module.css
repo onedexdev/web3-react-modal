@@ -14,6 +14,11 @@
   height: auto;
 }
 
+.icon img {
+  width: 100%;
+  height: auto;
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -25,6 +30,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .modalOverlay {
   position: absolute;
   width: 100%;
@@ -39,7 +45,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 15px 20px;
-  width: 360px;
+  width: 320px;
 }
 
 :global(.dark) .modalContent {
@@ -86,7 +92,7 @@
 .walletLogos {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
 
 .smallWalletLogos {
