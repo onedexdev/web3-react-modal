@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import styles from '../../styles.module.css'
 import { Modal } from '../Modal'
 import supportedConnectors, {
@@ -6,6 +6,7 @@ import supportedConnectors, {
 } from '../../config/supportedConnectors'
 import Icons from '../Icons'
 import { openWebsocket } from '../../utils'
+import Form from '../Form'
 
 const WalletNeedCheck = {
   frame: {
@@ -46,11 +47,21 @@ export const Web3ReactModal = ({
   providerOptions: any
 }) => {
   const [dontHaveProvider, setDontHaveProvider] = useState<any>(false)
+  const [isShowForm, showHideForm] = useState(false)
+  const dic = useRef({
+    connector: null,
+    name: ''
+  })
   const modalItems = []
 
   // back to select wallet when popup toggle
   useEffect(() => {
     setDontHaveProvider(false)
+    showHideForm(false)
+    dic.current = {
+      connector: null,
+      name: ''
+    }
   }, [visible])
 
   // render web3-react connectors
@@ -79,6 +90,10 @@ export const Web3ReactModal = ({
             WalletNeedCheck[name] &&
               WalletNeedCheck[name].website &&
               window.open(WalletNeedCheck[name].website)
+          } else if (name === 'magic') {
+            showHideForm(true)
+            dic.current.connector = connector
+            dic.current.name = name
           } else {
             onConnect(connector, name)
             setVisible(false)
@@ -98,7 +113,13 @@ export const Web3ReactModal = ({
       </div>
     )
   }
-
+  const handleLogin = useCallback((email: string) => {
+    onConnect(dic.current.connector, dic.current.name, email)
+    setVisible(false)
+  }, [])
+  const renderFormLogin = useCallback(() => {
+    return <Form buttinTitle='Login' onConfirm={handleLogin} />
+  }, [])
   return (
     <Modal setVisible={setVisible} visible={visible}>
       {dontHaveProvider ? (
@@ -135,6 +156,8 @@ export const Web3ReactModal = ({
             </span>
           </div>
         </div>
+      ) : isShowForm ? (
+        renderFormLogin && renderFormLogin()
       ) : (
         <div className={styles.web3Modal}>{modalItems}</div>
       )}

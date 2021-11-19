@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Web3ReactProvider getLibrary={getLibrary}>
-        <AuthComponent/>
+        <AuthComponent />
       </Web3ReactProvider>
     </>
   )
@@ -30,9 +30,14 @@ const AuthComponent = () => {
         visible={visible}
         setVisible={setVisible}
         providerOptions={connectors}
-        onConnect={(connector: any, name: string) => {
+        onConnect={(connector: any, name: string, email?: string) => {
+          if (name === 'magic' && email) {
+            connector.email = email
+          }
           localStorage.setItem('connected', name)
-          activate(connector)
+          activate(connector, (err) => {
+            alert(err.toString())
+          })
         }}
       />
       <p>account: {active ? account : 'N/A'}</p>
