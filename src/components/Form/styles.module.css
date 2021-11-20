@@ -4,12 +4,15 @@
   display: flex;
   flex-direction: column
 }
-.formContainer .title{
-  font-weight:bold;
+.title{
+  font-weight: bold;
 }
-.formContainer .subTitle{
+.subTitle{
   padding-top: 16px;
   padding-bottom: 8px;
+}
+:global(.dark) .formContainer span{
+  color: #fff;
 }
 .form input{
   background-color: #ffff;
@@ -22,10 +25,15 @@
       border-width: 1px;
       margin-top: 24px;
 }
+:global(.dark) .form input{
+  background-color: #292C31;
+  border-color:#fff0;
+  color: #bbb;
+}
 .form button {
       display: block;
       font-family: inherit;
-      background-color: #6851FF;
+      background-color: #96CF24;
       border: none;
       color: #fff;
       font-size: 17px;

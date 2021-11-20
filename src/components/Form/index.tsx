@@ -17,9 +17,9 @@ export default function Form({
   }, [])
   return (
     <div className={styles.formContainer}>
-      <text className='title'>{title}</text>
+      <span className={styles.title}>{title}</span>
 
-      <text className='subTitle'>To continue using this app</text>
+      <span className={styles.subTitle}>To continue using this app</span>
 
       <div className={styles.form}>
         <input
