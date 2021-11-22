@@ -1,4 +1,5 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useRef, useState } from 'react'
+import { isEmail } from '../../utils'
 import styles from './styles.module.css'
 export default function Form({
   onConfirm,
@@ -9,11 +10,15 @@ export default function Form({
   title?: string
 }) {
   const [email, setEmail] = useState('')
+  const dic = useRef({
+    formIsValid: false
+  })
   const handleConfirm = useCallback(() => {
     onConfirm && onConfirm(email)
   }, [email])
   const handleChange = useCallback((event) => {
     setEmail(event.target.value)
+    dic.current.formIsValid = isEmail(event.target.value)
   }, [])
   return (
     <div className={styles.formContainer}>
@@ -27,7 +32,12 @@ export default function Form({
           type='email'
           placeholder='hello@example.com'
         />
-        <button onClick={handleConfirm} type='submit'>
+        <button
+          disabled={!dic.current.formIsValid}
+          style={dic.current.formIsValid ? {} : { backgroundColor: '#bbb' }}
+          onClick={handleConfirm}
+          type='submit'
+        >
           Log in
         </button>
       </div>
