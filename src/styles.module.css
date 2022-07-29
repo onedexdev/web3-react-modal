@@ -73,7 +73,7 @@
 
 .walletItem:hover {
   color: white;
-  background: linear-gradient(31deg, #328B31 -28.78%, #96CF24 141.82%);
+  background: linear-gradient(31deg, var(--lz-color-primary-light, #328B31) -28.78%, var(--lz-color-primary-light-1, #96CF24) 141.82%);
 }
 
 .walletItem:hover span {
@@ -169,7 +169,7 @@
 
 .injectedWalletToInstall:hover {
   color: white;
-  background: linear-gradient(31deg, #328B31 -28.78%, #96CF24 141.82%);
+  background: linear-gradient(31deg, var(--lz-color-primary-light, #328B31) -28.78%, var(--lz-color-primary-light-1, #96CF24) 141.82%);
 }
 
 .btnBack {
