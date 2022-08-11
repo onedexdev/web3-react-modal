@@ -10,11 +10,6 @@ export const injectedInstallLinks = [
     link: 'https://ezdefi.com/products/walletapp/'
   },
   {
-    icon: 'LaunchzoneIcon',
-    name: 'Launchzone',
-    link: 'https://launchzone.org/'
-  },
-  {
     icon: 'TrustWalletIcon',
     name: 'TrustWallet',
     link: 'https://trustwallet.com/download-page'
@@ -27,14 +22,17 @@ export const injectedInstallLinks = [
 ]
 
 const injected = {
-  images: [
-    'MetamaskIcon',
-    'EzdefiIcon',
-    'LaunchzoneIcon',
-    'TrustWalletIcon',
-    'CoinBaseIcon'
-  ],
+  images: ['MetamaskIcon', 'EzdefiIcon', 'TrustWalletIcon', 'CoinBaseIcon'],
   title: 'Injected Wallets'
+}
+
+if (window.location.hostname.includes('lz.finance')) {
+  injected.images.splice(2, 0, 'LaunchzoneIcon')
+  injectedInstallLinks.splice(2, 0, {
+    icon: 'LaunchzoneIcon',
+    name: 'Launchzone',
+    link: 'https://launchzone.org/'
+  })
 }
 
 const walletconnect = {
