@@ -2,22 +2,22 @@ export const injectedInstallLinks = [
   {
     icon: 'MetamaskIcon',
     name: 'Metamask',
-    link: 'https://metamask.io/download.html'
+    link: 'https://metamask.io/download/'
   },
   {
     icon: 'EzdefiIcon',
     name: 'Ezdefi',
-    link: 'https://ezdefi.com/products/walletapp/'
+    link: 'https://chrome.google.com/webstore/detail/ezdefi/ejeemacpidnaejkhpbmfkadhgjhnolaa'
   },
   {
     icon: 'TrustWalletIcon',
     name: 'TrustWallet',
-    link: 'https://trustwallet.com/download-page'
+    link: 'https://trustwallet.com/download'
   },
   {
     icon: 'CoinBaseIcon',
     name: 'CoinBase',
-    link: 'https://www.coinbase.com/'
+    link: 'https://www.coinbase.com/wallet'
   }
 ]
 
@@ -31,7 +31,7 @@ if (window.location.hostname.includes('lz.finance')) {
   injectedInstallLinks.splice(2, 0, {
     icon: 'LaunchzoneIcon',
     name: 'Launchzone',
-    link: 'https://launchzone.org/'
+    link: 'https://docs.lz.finance/our-products/lz-wallet'
   })
 }
 
