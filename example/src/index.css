@@ -1,7 +1,7 @@
 body {
-  --lz-color-primary: #0c053d;
-  --lz-color-primary-light: #0053f4;
-  --lz-color-primary-light-1: #00fef3;
+  --onedex-color-primary: rgb(252, 213, 53);
+  --onedex-color-primary-light: rgb(252, 213, 53);
+  --onedex-color-primary-light-1: rgb(252, 213, 53);
 }
 
 body {
