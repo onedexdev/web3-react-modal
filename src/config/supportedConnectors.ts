@@ -5,16 +5,6 @@ export const injectedInstallLinks = [
     link: 'https://metamask.io/download/'
   },
   {
-    icon: 'EzdefiIcon',
-    name: 'Ezdefi',
-    link: 'https://chrome.google.com/webstore/detail/ezdefi/ejeemacpidnaejkhpbmfkadhgjhnolaa'
-  },
-  {
-    icon: 'LaunchzoneIcon',
-    name: 'Launchzone',
-    link: 'https://docs.lz.finance/our-products/lz-wallet'
-  },
-  {
     icon: 'TrustWalletIcon',
     name: 'TrustWallet',
     link: 'https://trustwallet.com/download'
@@ -29,23 +19,10 @@ export const injectedInstallLinks = [
 const injected = {
   images: [
     'MetamaskIcon',
-    'EzdefiIcon',
-    'LaunchzoneIcon',
     'TrustWalletIcon',
     'CoinBaseIcon'
   ],
   title: 'Injected Wallets'
-}
-
-if (!window.location.hostname.includes('lz.finance')) {
-  injected.images.splice(1, 2)
-  injected.images.push('LaunchzoneIcon')
-  injectedInstallLinks.splice(1, 2)
-  injectedInstallLinks.push({
-    icon: 'LaunchzoneIcon',
-    name: 'Launchzone',
-    link: 'https://docs.lz.finance/our-products/lz-wallet'
-  })
 }
 
 const walletconnect = {
