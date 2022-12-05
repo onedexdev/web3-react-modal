@@ -53,10 +53,11 @@
 
 .web3Modal {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-columns: 300px;
   max-height: 100%;
   overflow: auto;
-  gap: 15px;
+  /* gap: 15px; */
+  grid-row-gap: 16px;
 }
 
 .walletItem {
