@@ -278,7 +278,7 @@ export const SafePalIcon = (props: any) => (
   <BaseIcon {...props}>
     <img
       width={32}
-      src="https://s2.coinmarketcap.com/static/img/coins/64x64/8119.png"
+      src="https://styles.redditmedia.com/t5_6cbcqy/styles/co…th=256&s=6482920363f12240d85e09a88fd116f5f19bd443"
       alt='safepalLogo'
     />
   </BaseIcon>
@@ -412,6 +412,7 @@ export const FrameIcon = (props: any) => (
 )
 
 export default {
+  SafePalIcon,
   AuthereumIcon,
   CoinBaseIcon,
   EzdefiIcon,
