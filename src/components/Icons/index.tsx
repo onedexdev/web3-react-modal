@@ -274,7 +274,15 @@ export const EzdefiIcon = (props: any) => (
     </svg>
   </BaseIcon>
 )
-
+export const SafePalIcon = (props: any) => (
+  <BaseIcon {...props}>
+    <img
+      width={32}
+      src="https://s2.coinmarketcap.com/static/img/coins/64x64/8119.png"
+      alt='safepalLogo'
+    />
+  </BaseIcon>
+)
 export const AuthereumIcon = (props: any) => (
   <BaseIcon {...props}>
     <img

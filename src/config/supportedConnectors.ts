@@ -13,6 +13,11 @@ export const injectedInstallLinks = [
     icon: 'CoinBaseIcon',
     name: 'CoinBase',
     link: 'https://www.coinbase.com/wallet'
+  },
+  {
+    icon: 'SafePalIcon',
+    name: 'SafePal',
+    link: 'https://www.safepal.com/download'
   }
 ]
 
@@ -20,7 +25,8 @@ const injected = {
   images: [
     'MetamaskIcon',
     'TrustWalletIcon',
-    'CoinBaseIcon'
+    'CoinBaseIcon',
+    'SafePalIcon'
   ],
   title: 'Injected Wallets'
 }
