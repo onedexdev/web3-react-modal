@@ -278,7 +278,7 @@ export const SafePalIcon = (props: any) => (
   <BaseIcon {...props}>
     <img
       width={32}
-      src="https://styles.redditmedia.com/t5_6cbcqy/styles/communityIcon_eevc4ge042i91.png?width=256&s=6482920363f12240d85e09a88fd116f5f19bd443"
+      src="https://onedexdev.github.io/imgs/safepal.png"
       alt='safepalLogo'
     />
   </BaseIcon>
