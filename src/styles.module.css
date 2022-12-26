@@ -69,15 +69,16 @@
   gap: 0 5px;
   border-radius: 10px;
   justify-content: center;
+  color: var(--onedex-color-text-default);
 }
 
 .walletItem:hover {
-  color: white;
+  color: var(--onedex-color-text-btn-primary);
   background: linear-gradient(31deg, var(--onedex-color-primary-light, rgb(252, 213, 53)) -28.78%, var(--onedex-color-primary-light-1, rgb(252, 213, 53)) 141.82%);
 }
 
 .walletItem:hover span {
-  color: white;
+  color: var(--onedex-color-text-btn-primary);
 }
 
 .injectedWalletItem {
