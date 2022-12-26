@@ -159,7 +159,7 @@
   padding: 10px 30px;
   gap: 20px;
   text-decoration: none;
-  color: #535353;
+  color: var(--onedex-color-text-default);
   font-size: 24px;
   font-weight: bold;
 }
@@ -169,7 +169,7 @@
 }
 
 .injectedWalletToInstall:hover {
-  color: white;
+  color: var(--onedex-color-text-btn-primary);
   background: linear-gradient(31deg, var(--onedex-color-primary-light, #328B31) -28.78%, var(--onedex-color-primary-light-1, #96CF24) 141.82%);
 }
 
